@@ -1,13 +1,15 @@
 {
   "name": "@juniper/form-controls",
   "version": "1.0.0",
-  "description": "FormField and its controls — the form primitives shared by Juniper's payroll and finance products.",
-  "license": "UNLICENSED",
+  "description": "FormField and its controls \u2014 the form primitives shared by Juniper's payroll and finance products.",
+  "license": "SEE LICENSE IN LICENSE",
   "private": false,
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stuartallsopp/juniper-form-controls.git"
@@ -31,7 +33,12 @@
     "react-number-format": "*"
   },
   "peerDependenciesMeta": {
-    "@codemirror/lang-json": { "optional": true },
-    "@uiw/react-codemirror": { "optional": true }
-  }
+    "@codemirror/lang-json": {
+      "optional": true
+    },
+    "@uiw/react-codemirror": {
+      "optional": true
+    }
+  },
+  "author": "Juniper Education"
 }
