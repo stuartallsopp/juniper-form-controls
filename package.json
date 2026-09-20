@@ -1,0 +1,37 @@
+{
+  "name": "@juniper/form-controls",
+  "version": "1.0.0",
+  "description": "FormField and its controls — the form primitives shared by Juniper's payroll and finance products.",
+  "license": "UNLICENSED",
+  "private": false,
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": ["src"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuartallsopp/juniper-form-controls.git"
+  },
+  "peerDependencies": {
+    "@codemirror/lang-json": "*",
+    "@emotion/react": "*",
+    "@emotion/styled": "*",
+    "@fortawesome/fontawesome-svg-core": "*",
+    "@fortawesome/pro-regular-svg-icons": "*",
+    "@fortawesome/react-fontawesome": "*",
+    "@mui/material": "*",
+    "@mui/x-date-pickers": "*",
+    "@uiw/react-codemirror": "*",
+    "axios": "*",
+    "dayjs": "*",
+    "expr-eval": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-imask": "*",
+    "react-number-format": "*"
+  },
+  "peerDependenciesMeta": {
+    "@codemirror/lang-json": { "optional": true },
+    "@uiw/react-codemirror": { "optional": true }
+  }
+}
